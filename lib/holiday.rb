@@ -63,6 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each { |season, holidays|
     puts "#{season.to_s.capitalize}:"
     holidays.each{|holiday, supplies|
+    string = holiday.split()
       puts holiday
       puts supplies
     }

@@ -68,7 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
         word.capitalize!
       }
       string = "\t"
-      string << array.join(" ") + ": " + supplies.join(" ")
+      string << array.join(" ") + ": " + supplies.join(", ")
       
       puts string
       #puts supplies

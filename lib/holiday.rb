@@ -62,6 +62,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holiday_hash.each { |season, holiday|
     puts season.to_s
+  }
 end
 
 def all_holidays_with_bbq(holiday_hash)
@@ -89,4 +90,4 @@ holiday_supplies = {
 }
 
 
-#puts all_winter_holiday_supplies(holiday_supplies)
+puts all_supplies_in_holidays(holiday_supplies)

@@ -102,4 +102,4 @@ holiday_supplies = {
 }
 
 
-puts all_supplies_in_holidays(holiday_supplies)
+puts all_winter_holiday_supplies(holiday_supplies)
